@@ -1,0 +1,48 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DF2B6857512CB12}" {
+   Prefab "{5DF2B6857512CB12}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
+       Size 5760 3240
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5CFCF5E894AE662F}" {
+     Prefab "{5CFCF5E894AE662F}"
+     "Is Visible" 0
+    }
+   }
+  }
+  FrameWidgetClass "{5DEAEB9641150C2F}" {
+   Prefab "{5DEAEB9641150C2F}"
+   {
+    ScaleWidgetClass "{5E6CBBED08BBBF82}" {
+     Prefab "{5E6CBBED08BBBF82}"
+     {
+      ImageWidgetClass "{5DEAEB9641150C2D}" {
+       Prefab "{5DEAEB9641150C2D}"
+       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
+       Size 5760 3240
+      }
+     }
+    }
+    ScaleWidgetClass "{5E6CBBFFBA5F8034}" {
+     Prefab "{5E6CBBFFBA5F8034}"
+     {
+      ImageWidgetClass "{5E6CBBFFBA5F802B}" {
+       Prefab "{5E6CBBFFBA5F802B}"
+       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
+       Size 5760 3240
+      }
+     }
+    }
+   }
+  }
+ }
+}

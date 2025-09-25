@@ -1,0 +1,354 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DF4B51DB14F36DC}" {
+   Prefab "{5DF4B51DB14F36DC}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{D75AE4339921D8DC}Images/Render_ww3_2.edds"
+       Size 5760 3240
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5CFCF5E894AE662F}" {
+     Prefab "{5CFCF5E894AE662F}"
+     "Is Visible" 0
+    }
+    HorizontalLayoutWidgetClass "{5CFCF5E894AE6623}" {
+     Prefab "{5CFCF5E894AE6623}"
+     "Is Visible" 0
+    }
+   }
+  }
+  OverlayWidgetClass "{5DF4B519332945B5}" {
+   Prefab "{5DF4B519332945B5}"
+   {
+    SizeLayoutWidgetClass "{5DF4AD634C312B7D}" {
+     Prefab "{5DF4AD634C312B7D}"
+     {
+      VerticalLayoutWidgetClass "{5DF4AD634C312B71}" {
+       Prefab "{5DF4AD634C312B71}"
+       {
+        SizeLayoutWidgetClass "{5DF4B0937DBD241F}" {
+         Prefab "{5DF4B0937DBD241F}"
+         {
+          HorizontalLayoutWidgetClass "{5DF4AD634C312B77}" {
+           Prefab "{5DF4AD634C312B77}"
+           {
+            HorizontalLayoutWidgetClass "{5DF68693034AA8DA}" {
+             Prefab "{5DF68693034AA8DA}"
+             {
+              SizeLayoutWidgetClass "{5DF6A013B8725099}" {
+               Prefab "{5DF6A013B8725099}"
+               Slot LayoutSlot "{5DF6A013B87250B2}" {
+               }
+              }
+              FrameWidgetClass "{5DFE81B4EB9ADAEB}" {
+               Prefab "{5DFE81B4EB9ADAEB}"
+               {
+                OverlayWidgetClass "{5DFE81B4B7003502}" {
+                 Prefab "{5DFE81B4B7003502}"
+                 {
+                  SizeLayoutWidgetClass "{5E06F1472BD0C3F6}" {
+                   Prefab "{5E06F1472BD0C3F6}"
+                   "Is Visible" 1
+                  }
+                 }
+                }
+               }
+              }
+              OverlayWidgetClass "{5DFEC6C9E0E6C1F4}" {
+               Prefab "{5DFEC6C9E0E6C1F4}"
+               {
+                SizeLayoutWidgetClass "{5E06F146F34321BE}" {
+                 Prefab "{5E06F146F34321BE}"
+                 "Is Visible" 1
+                }
+                HorizontalLayoutWidgetClass "{5DFE81B4DC0E6B8C}" {
+                 Prefab "{5DFE81B4DC0E6B8C}"
+                 {
+                  FrameWidgetClass "{5DFEC1EE8AEC2170}" {
+                   Prefab "{5DFEC1EE8AEC2170}"
+                   "Is Visible" 1
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        OverlayWidgetClass "{5DF4AD634C312B8B}" {
+         Prefab "{5DF4AD634C312B8B}"
+         {
+          GridLayoutWidgetClass "{5E028EA8BDB49D34}" {
+           Prefab "{5E028EA8BDB49D34}"
+           {
+            ButtonWidgetClass "{6673514690820DA3}" : "{7A0CAB990509E312}UI/layouts/Menus/WorldSelection/MainMenuTile.layout" {
+             Name "0"
+             Slot GridWidgetSlot "{56C2A93470D3F0AB}" {
+              Padding 0 15 700 205
+              Row 2
+              ColumnSpan 2
+             }
+             Tooltip TextWidgetTooltip "{667351416BFCB593}" {
+              Text "Coming Soon"
+             }
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sTitle "EU Server - Coming Soon"
+               m_sImageDefault ""
+               m_sImageSelected ""
+               m_sIconImage "lockedCircle"
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     Slot OverlayWidgetSlot "{56CAD0C0704E28D5}" {
+                      HorizontalAlign 3
+                      VerticalAlign 3
+                     }
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            ButtonWidgetClass "{667351468DF714E0}" : "{7A0CAB990509E312}UI/layouts/Menus/WorldSelection/MainMenuTile.layout" {
+             Name "1"
+             Slot GridWidgetSlot "{56C2A93470D3F0AB}" {
+              Padding 0 75 700 145
+              Row 2
+              ColumnSpan 2
+             }
+             Tooltip TextWidgetTooltip "{6673514160F057F2}" {
+              Text "Coming Soon"
+             }
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sTitle "NA Server - Coming Soon"
+               m_sImageDefault ""
+               m_sImageSelected ""
+               m_sIconImage "lockedCircle"
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            ButtonWidgetClass "{54B29B3B937EB97D}" {
+             Prefab "{54B29B3B937EB97D}"
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sImageDefault ""
+               m_sImageSelected ""
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            ButtonWidgetClass "{54B29B3B97E34D65}" {
+             Prefab "{54B29B3B97E34D65}"
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sImageDefault ""
+               m_sImageSelected ""
+               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+               m_sIconImage "global"
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            ButtonWidgetClass "{54B29B3B97C4D61D}" {
+             Prefab "{54B29B3B97C4D61D}"
+             Slot GridWidgetSlot "{56C29176C42D37F0}" {
+              Padding 0 -45 700 265
+             }
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sImageDefault ""
+               m_sImageSelected ""
+               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+               m_sIconImage "modIcon"
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            ButtonWidgetClass "{54B29B3B977583E0}" {
+             Prefab "{54B29B3B977583E0}"
+             Slot GridWidgetSlot "{56C29176C42D37F0}" {
+              Padding 0 15 700 205
+             }
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sImageDefault ""
+               m_sImageSelected ""
+               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+               m_sIconImage "scenarios"
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            ButtonWidgetClass "{54B29B3B975840CA}" {
+             Prefab "{54B29B3B975840CA}"
+             Slot GridWidgetSlot "{56C29176C42D37F0}" {
+             }
+             components {
+              SCR_MenuTileComponent "{5856B354A435996E}" {
+               m_sImageDefault ""
+               m_sImageSelected ""
+               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+               m_sIconImage "field-manual"
+              }
+             }
+             {
+              OverlayWidgetClass "{54B29B3A951FD236}" {
+               Prefab "{54B29B3A951FD236}"
+               {
+                SizeLayoutWidgetClass "{5856B35E222A476C}" {
+                 Prefab "{5856B35E222A476C}"
+                 {
+                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
+                   Prefab "{56E0CE58C5887F4A}"
+                   {
+                    ImageWidgetClass "{54B29B3A87D1B615}" {
+                     Prefab "{54B29B3A87D1B615}"
+                     "Is Visible" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

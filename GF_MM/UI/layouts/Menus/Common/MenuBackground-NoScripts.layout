@@ -1,0 +1,14 @@
+OverlayWidgetClass {
+ {
+  ScaleWidgetClass "{5CFCF5E894AE6629}" {
+   Prefab "{5CFCF5E894AE6629}"
+   {
+    ImageWidgetClass "{5CFCF5E894AE6628}" {
+     Prefab "{5CFCF5E894AE6628}"
+     Texture "{D58554E81579F3D1}Assets/Images/Render_ww.edds"
+     Size 5760 3240
+    }
+   }
+  }
+ }
+}

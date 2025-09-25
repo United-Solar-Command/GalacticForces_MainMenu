@@ -1,0 +1,16 @@
+ButtonWidgetClass "{667351462DD43C73}" : "{F5C82A386803A7A1}UI/layouts/Menus/WorldSelection/MainMenuTile.layout" {
+ {
+  OverlayWidgetClass "{54B29B3A951FD236}" {
+   Prefab "{54B29B3A951FD236}"
+   {
+    PanelWidgetClass "{56E0BCF1F01D4981}" {
+     Prefab "{56E0BCF1F01D4981}"
+     Slot OverlayWidgetSlot "{5856895505E89137}" {
+      Padding 0 0 446 0
+     }
+     style outline_4px
+    }
+   }
+  }
+ }
+}

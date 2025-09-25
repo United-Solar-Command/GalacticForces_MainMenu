@@ -1,0 +1,39 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DFF03E4AD9D1E88}" {
+   Prefab "{5DFF03E4AD9D1E88}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{B911AB14FCD939DC}Images/image_93.edds"
+       Size 5760 3240
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   {
+    OverlayWidgetClass "{5DFF03E4AD9D1E85}" {
+     Prefab "{5DFF03E4AD9D1E85}"
+     {
+      ImageWidgetClass "{6673514211538333}" {
+       Name "USC_Logo"
+       Slot OverlayWidgetSlot {
+        HorizontalAlign 1
+        VerticalAlign 0
+        Padding 0 -50 0 0
+       }
+       Texture "{6024FA2AA975C682}Images/logo.edds"
+       Size 256 256
+      }
+     }
+    }
+   }
+  }
+ }
+}
