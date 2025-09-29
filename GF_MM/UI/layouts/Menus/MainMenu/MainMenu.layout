@@ -13,14 +13,6 @@ FrameWidgetClass {
       }
      }
     }
-    VerticalLayoutWidgetClass "{5CFCF5E894AE662F}" {
-     Prefab "{5CFCF5E894AE662F}"
-     "Is Visible" 0
-    }
-    HorizontalLayoutWidgetClass "{5CFCF5E894AE6623}" {
-     Prefab "{5CFCF5E894AE6623}"
-     "Is Visible" 0
-    }
    }
   }
   OverlayWidgetClass "{5DF4B519332945B5}" {
@@ -91,12 +83,13 @@ FrameWidgetClass {
            Prefab "{5E028EA8BDB49D34}"
            {
             ButtonWidgetClass "{6673514690820DA3}" : "{7A0CAB990509E312}UI/layouts/Menus/WorldSelection/MainMenuTile.layout" {
-             Name "0"
+             Name "EU"
              Slot GridWidgetSlot "{56C2A93470D3F0AB}" {
               Padding 0 15 700 205
               Row 2
               ColumnSpan 2
              }
+             "Is Visible" 0
              Tooltip TextWidgetTooltip "{667351416BFCB593}" {
               Text "Coming Soon"
              }
@@ -135,12 +128,13 @@ FrameWidgetClass {
              }
             }
             ButtonWidgetClass "{667351468DF714E0}" : "{7A0CAB990509E312}UI/layouts/Menus/WorldSelection/MainMenuTile.layout" {
-             Name "1"
+             Name "NA"
              Slot GridWidgetSlot "{56C2A93470D3F0AB}" {
               Padding 0 75 700 145
               Row 2
               ColumnSpan 2
              }
+             "Is Visible" 0
              Tooltip TextWidgetTooltip "{6673514160F057F2}" {
               Text "Coming Soon"
              }
