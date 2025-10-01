@@ -1,0 +1,19 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5D0C895F3A65DB55}" {
+   Prefab "{5D0C895F3A65DB55}"
+   {
+    ImageWidgetClass "{58D2D61AF5687A63}" {
+     Prefab "{58D2D61AF5687A63}"
+     Texture "{6024FA2AA975C682}Images/logo.edds"
+     Size 256 256
+    }
+    ImageWidgetClass "{58D2D61AF674465C}" {
+     Prefab "{58D2D61AF674465C}"
+     "Is Enabled" 0
+     "Is Visible" 0
+    }
+   }
+  }
+ }
+}

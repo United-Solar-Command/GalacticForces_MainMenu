@@ -8,26 +8,50 @@ FrameWidgetClass {
      {
       ImageWidgetClass "{5CFCF5E894AE6628}" {
        Prefab "{5CFCF5E894AE6628}"
-       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
-       Size 5760 3240
+       Texture "{D58554E81579F3D1}Assets/Images/Render_ww.edds"
       }
      }
-    }
-    VerticalLayoutWidgetClass "{5CFCF5E894AE662F}" {
-     Prefab "{5CFCF5E894AE662F}"
-     "Is Visible" 0
     }
    }
   }
   FrameWidgetClass "{5DEAEB9641150C2F}" {
    Prefab "{5DEAEB9641150C2F}"
    {
+    ScaleWidgetClass "{6682FDC239A55956}" {
+     Name "m_wUSCLogo"
+     Slot FrameWidgetSlot "{6682FDC239A55936}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX -128
+      OffsetLeft -128
+      PositionY -300
+      OffsetTop -300
+      SizeX 128
+      OffsetRight 0
+      SizeY 128
+      OffsetBottom 172
+      SizeToContent 1
+     }
+     "Z Order" 1
+     Opacity 0.9
+     {
+      ImageWidgetClass "{6682FDC221637019}" {
+       Name "Image0"
+       Slot AlignableSlot "{6682FDC221637FF9}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding 0 0 0 0
+       }
+       Texture "{6024FA2AA975C682}Images/logo.edds"
+       Size 256 256
+      }
+     }
+    }
     ScaleWidgetClass "{5E6CBBED08BBBF82}" {
      Prefab "{5E6CBBED08BBBF82}"
      {
       ImageWidgetClass "{5DEAEB9641150C2D}" {
        Prefab "{5DEAEB9641150C2D}"
-       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
+       Texture "{B911AB14FCD939DC}Images/image_93.edds"
        Size 5760 3240
       }
      }
@@ -37,10 +61,55 @@ FrameWidgetClass {
      {
       ImageWidgetClass "{5E6CBBFFBA5F802B}" {
        Prefab "{5E6CBBFFBA5F802B}"
-       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
+       Slot AlignableSlot "{5E6CBBED08A9A143}" {
+       }
+       Texture "{B911AB14FCD939DC}Images/image_93.edds"
        Size 5760 3240
       }
      }
+    }
+    ImageWidgetClass "{5DEAEB9641150C23}" {
+     Prefab "{5DEAEB9641150C23}"
+     Slot FrameWidgetSlot "{5868D25099BC2439}" {
+      PositionX 10
+      OffsetLeft 10
+      PositionY -30
+      OffsetTop -30
+      SizeX 10000
+      OffsetRight -10010
+      SizeY 10000
+      OffsetBottom -9970
+     }
+    }
+    ImageWidgetClass "{5DEAEB9641150C22}" {
+     Prefab "{5DEAEB9641150C22}"
+     Slot FrameWidgetSlot "{5868D25099BC2439}" {
+      PositionX 3.438
+      OffsetLeft 3.438
+      PositionY 3.438
+      OffsetTop 3.438
+      SizeX 10000
+      OffsetRight -10003.4
+      SizeY 2000
+      OffsetBottom -2003.44
+     }
+    }
+    TextWidgetClass "{6683027119F0BC1A}" {
+     Name "Text0"
+     Slot FrameWidgetSlot "{64FEFA4A3AA35105}" {
+      PositionX 1796.35
+      OffsetLeft 1796.35
+      PositionY 1053.53
+      OffsetTop 1053.53
+      SizeX 204.32
+      OffsetRight -2000.67
+      SizeY 46.6
+      OffsetBottom -1100.13
+     }
+     "Z Order" 2
+     Text "Render by Vinh"
+     "Font Size" 20
+     "Min Font Size" 20
     }
    }
   }

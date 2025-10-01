@@ -8,7 +8,8 @@ FrameWidgetClass {
      {
       ImageWidgetClass "{5CFCF5E894AE6628}" {
        Prefab "{5CFCF5E894AE6628}"
-       Texture "{B911AB14FCD939DC}Images/image_93.edds"
+       Color 0.4397 0.4397 0.4397 1
+       Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
        Size 5760 3240
       }
      }
@@ -18,18 +19,61 @@ FrameWidgetClass {
   FrameWidgetClass "{5E04A017BD489B2A}" {
    Prefab "{5E04A017BD489B2A}"
    {
+    TextWidgetClass "{64FEFA4A3AA35122}" {
+     Name "Text0"
+     Slot FrameWidgetSlot "{64FEFA4A3AA35105}" {
+      PositionX 1794.68
+      OffsetLeft 1794.68
+      PositionY 1050.96
+      OffsetTop 1050.96
+      SizeX 204.32
+      OffsetRight -1999
+      SizeY 46.6
+      OffsetBottom -1097.56
+     }
+     Text "Render by Vinh"
+     "Font Size" 20
+     "Min Font Size" 20
+    }
     OverlayWidgetClass "{5DFF03E4AD9D1E85}" {
      Prefab "{5DFF03E4AD9D1E85}"
+     Slot FrameWidgetSlot "{58D0CBF2E62A3844}" {
+      PositionX -2.371
+      OffsetLeft -2.371
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 2.371
+      SizeY 0
+      OffsetBottom 0
+     }
      {
-      ImageWidgetClass "{6673514211538333}" {
-       Name "USC_Logo"
-       Slot OverlayWidgetSlot {
+      FrameWidgetClass "{5DFF03E4AD9D1EF7}" {
+       Prefab "{5DFF03E4AD9D1EF7}"
+       "Is Visible" 0
+      }
+      VerticalLayoutWidgetClass "{5DFF03E4AD9D1EE1}" {
+       Prefab "{5DFF03E4AD9D1EE1}"
+       Slot OverlayWidgetSlot "{5DFE96D622552BA2}" {
         HorizontalAlign 1
-        VerticalAlign 0
-        Padding 0 -50 0 0
+        VerticalAlign 2
+        Padding 50 0 50 120
        }
-       Texture "{6024FA2AA975C682}Images/logo.edds"
-       Size 256 256
+      }
+      HorizontalLayoutWidgetClass "{5DFF03E4AD9D1ED0}" {
+       Prefab "{5DFF03E4AD9D1ED0}"
+       {
+        ImageWidgetClass "{5DFF03E4AD9D1ED7}" {
+         Prefab "{5DFF03E4AD9D1ED7}"
+         Texture "{6024FA2AA975C682}Images/logo.edds"
+         Size 48 48
+        }
+        RichTextWidgetClass "{5DFF03E4AD9D1ED5}" {
+         Prefab "{5DFF03E4AD9D1ED5}"
+         "Font Size" 18
+         "Min Font Size" 18
+        }
+       }
       }
      }
     }
