@@ -3,7 +3,7 @@ GameProject {
  GUID "6673514565162C79"
  TITLE "GF_MM"
  Dependencies {
-  "624F15820F68F314" "58D0FB3206B6F859"
+  "58D0FB3206B6F859"
  }
  Configurations {
   GameProjectConfig PC {

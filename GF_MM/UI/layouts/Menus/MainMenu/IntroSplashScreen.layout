@@ -8,7 +8,7 @@ FrameWidgetClass {
      {
       ImageWidgetClass "{5CFCF5E894AE6628}" {
        Prefab "{5CFCF5E894AE6628}"
-       Texture "{D58554E81579F3D1}Assets/Images/Render_ww.edds"
+       Texture "{D75AE4339921D8DC}Images/Render_ww3_2.edds"
       }
      }
     }
@@ -46,12 +46,44 @@ FrameWidgetClass {
       }
      }
     }
+    TextWidgetClass "{6683027119F0BC1A}" {
+     Name "Text0"
+     Slot FrameWidgetSlot "{64FEFA4A3AA35105}" {
+      PositionX 1796.35
+      OffsetLeft 1796.35
+      PositionY 1053.53
+      OffsetTop 1053.53
+      SizeX 204.32
+      OffsetRight -2000.67
+      SizeY 46.6
+      OffsetBottom -1100.13
+     }
+     "Z Order" 2
+     Text "Render by Vinh"
+     "Font Size" 20
+     "Min Font Size" 20
+    }
+    ImageWidgetClass "{66BEB18E911D0FB3}" {
+     Name "FadeImage"
+     Slot FrameWidgetSlot "{66BEB18E911D0F90}" {
+      OffsetLeft 0
+      OffsetTop 0
+      SizeX 1920
+      OffsetRight -1920
+      SizeY 1080
+      OffsetBottom -1080
+     }
+     "Z Order" 1
+     Opacity 0.35
+     Color 0 0 0 1
+     Size 1920 1080
+    }
     ScaleWidgetClass "{5E6CBBED08BBBF82}" {
      Prefab "{5E6CBBED08BBBF82}"
      {
       ImageWidgetClass "{5DEAEB9641150C2D}" {
        Prefab "{5DEAEB9641150C2D}"
-       Texture "{B911AB14FCD939DC}Images/image_93.edds"
+       Texture "{D75AE4339921D8DC}Images/Render_ww3_2.edds"
        Size 5760 3240
       }
      }
@@ -63,7 +95,7 @@ FrameWidgetClass {
        Prefab "{5E6CBBFFBA5F802B}"
        Slot AlignableSlot "{5E6CBBED08A9A143}" {
        }
-       Texture "{B911AB14FCD939DC}Images/image_93.edds"
+       Texture "{D75AE4339921D8DC}Images/Render_ww3_2.edds"
        Size 5760 3240
       }
      }
@@ -93,23 +125,6 @@ FrameWidgetClass {
       SizeY 2000
       OffsetBottom -2003.44
      }
-    }
-    TextWidgetClass "{6683027119F0BC1A}" {
-     Name "Text0"
-     Slot FrameWidgetSlot "{64FEFA4A3AA35105}" {
-      PositionX 1796.35
-      OffsetLeft 1796.35
-      PositionY 1053.53
-      OffsetTop 1053.53
-      SizeX 204.32
-      OffsetRight -2000.67
-      SizeY 46.6
-      OffsetBottom -1100.13
-     }
-     "Z Order" 2
-     Text "Render by Vinh"
-     "Font Size" 20
-     "Min Font Size" 20
     }
    }
   }

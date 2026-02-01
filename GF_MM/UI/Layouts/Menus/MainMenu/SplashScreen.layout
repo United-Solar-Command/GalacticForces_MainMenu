@@ -1,0 +1,21 @@
+FrameWidgetClass {
+ {
+  FrameWidgetClass "{5874BDFB3137CAC7}" {
+   Prefab "{5874BDFB3137CAC7}"
+   {
+    ImageWidgetClass "{5846F58BB2187316}" {
+     Prefab "{5846F58BB2187316}"
+     Texture "{E00E1378199F3FCD}Images/Render_ww4.edds"
+    }
+    ImageWidgetClass "{584893C7E6E54421}" {
+     Prefab "{584893C7E6E54421}"
+     "Is Visible" 0
+    }
+    ImageWidgetClass "{5848817CF2755364}" {
+     Prefab "{5848817CF2755364}"
+     "Is Visible" 0
+    }
+   }
+  }
+ }
+}

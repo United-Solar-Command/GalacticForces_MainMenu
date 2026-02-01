@@ -1,32 +1,23 @@
 FrameWidgetClass {
  {
-  TextWidgetClass "{66830271CEADF54E}" {
-   Name "Text0"
-   Slot FrameWidgetSlot "{64FEFA4A3AA35105}" {
-    PositionX 1670.09
-    OffsetLeft 1670.09
-    PositionY 1055.83
-    OffsetTop 1055.83
-    SizeX 204.32
-    OffsetRight -1874.41
-    SizeY 46.6
-    OffsetBottom -1102.43
-   }
-   Opacity 0.7
-   Text "Render by Vinh"
-   "Font Size" 20
-   "Min Font Size" 20
-  }
   OverlayWidgetClass "{5DF4B51DB14F36DC}" {
    Prefab "{5DF4B51DB14F36DC}"
    {
+    ImageWidgetClass "{66BEB18D74E12FF1}" {
+     Name "FadeImage"
+     Slot OverlayWidgetSlot "{66BEB18EB8BBCE96}" {
+     }
+     "Z Order" 1
+     Opacity 0.5
+     Color 0 0 0 1
+     Size 1920 1080
+    }
     ScaleWidgetClass "{5CFCF5E894AE6629}" {
      Prefab "{5CFCF5E894AE6629}"
      {
       ImageWidgetClass "{5CFCF5E894AE6628}" {
        Prefab "{5CFCF5E894AE6628}"
-       Texture "{D75AE4339921D8DC}Images/Render_ww3_2.edds"
-       Size 5760 3240
+       Texture "{200C2347CA3A395C}Images/Rokan_WW.edds"
       }
      }
     }
@@ -34,226 +25,7 @@ FrameWidgetClass {
   }
   OverlayWidgetClass "{5DF4B519332945B5}" {
    Prefab "{5DF4B519332945B5}"
-   {
-    SizeLayoutWidgetClass "{5DF4AD634C312B7D}" {
-     Prefab "{5DF4AD634C312B7D}"
-     {
-      VerticalLayoutWidgetClass "{5DF4AD634C312B71}" {
-       Prefab "{5DF4AD634C312B71}"
-       {
-        SizeLayoutWidgetClass "{5DF4B0937DBD241F}" {
-         Prefab "{5DF4B0937DBD241F}"
-         {
-          HorizontalLayoutWidgetClass "{5DF4AD634C312B77}" {
-           Prefab "{5DF4AD634C312B77}"
-           {
-            OverlayWidgetClass "{6320EAF37371A18A}" {
-             Prefab "{6320EAF37371A18A}"
-             "Is Enabled" 0
-            }
-            ButtonWidgetClass "{5E02A3A5281DE0EA}" {
-             Prefab "{5E02A3A5281DE0EA}"
-             {
-              SizeLayoutWidgetClass "{5AB681FB97247651}" {
-               Prefab "{5AB681FB97247651}"
-               {
-                OverlayWidgetClass "{5B1AB847053178D8}" {
-                 Prefab "{5B1AB847053178D8}"
-                 {
-                  ImageWidgetClass "{5B1AB847053178DD}" {
-                   Prefab "{5B1AB847053178DD}"
-                   "Is Visible" 1
-                  }
-                 }
-                }
-               }
-              }
-             }
-            }
-            HorizontalLayoutWidgetClass "{5DF68693034AA8DA}" {
-             Prefab "{5DF68693034AA8DA}"
-             {
-              ImageWidgetClass "{6682F6E8CA4D1D17}" {
-               Name "Image0"
-               Slot LayoutSlot "{6682F6E8CA4D1CCC}" {
-                HorizontalAlign 1
-                Padding 50 -75 0 -125
-               }
-               Texture "{6024FA2AA975C682}Images/logo.edds"
-               Size 256 256
-              }
-              FrameWidgetClass "{5DFE81B4EB9ADAEB}" {
-               Prefab "{5DFE81B4EB9ADAEB}"
-               {
-                OverlayWidgetClass "{5DFE81B4B7003502}" {
-                 Prefab "{5DFE81B4B7003502}"
-                 {
-                  SizeLayoutWidgetClass "{5E06F1472BD0C3F6}" {
-                   Prefab "{5E06F1472BD0C3F6}"
-                   "Is Visible" 1
-                  }
-                 }
-                }
-               }
-              }
-              OverlayWidgetClass "{5DFEC6C9E0E6C1F4}" {
-               Prefab "{5DFEC6C9E0E6C1F4}"
-               {
-                SizeLayoutWidgetClass "{5E06F146F34321BE}" {
-                 Prefab "{5E06F146F34321BE}"
-                 "Is Visible" 1
-                }
-               }
-              }
-             }
-            }
-           }
-          }
-         }
-        }
-        OverlayWidgetClass "{5DF4AD634C312B8B}" {
-         Prefab "{5DF4AD634C312B8B}"
-         {
-          GridLayoutWidgetClass "{5E028EA8BDB49D34}" {
-           Prefab "{5E028EA8BDB49D34}"
-           {
-            ButtonWidgetClass "{54B29B3B937EB97D}" {
-             Prefab "{54B29B3B937EB97D}"
-             Slot GridWidgetSlot "{56C2917689FFC410}" {
-              Padding 0 0 700 0
-              RowSpan 1
-             }
-             "Is Enabled" 0
-             "Is Visible" 0
-            }
-            ButtonWidgetClass "{54B29B3B97E34D65}" {
-             Prefab "{54B29B3B97E34D65}"
-             Slot GridWidgetSlot "{56C29176F57D54D9}" {
-              Padding 100 200 400 0
-              Row 2
-              Column 1
-             }
-             components {
-              SCR_MenuTileComponent "{5856B354A435996E}" {
-               m_sImageDefault ""
-               m_sImageSelected ""
-               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
-               m_sIconImage "global"
-              }
-             }
-             {
-              OverlayWidgetClass "{54B29B3A951FD236}" {
-               Prefab "{54B29B3A951FD236}"
-               {
-                SizeLayoutWidgetClass "{5856B35E222A476C}" {
-                 Prefab "{5856B35E222A476C}"
-                 {
-                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
-                   Prefab "{56E0CE58C5887F4A}"
-                   {
-                    ImageWidgetClass "{54B29B3A87D1B615}" {
-                     Prefab "{54B29B3A87D1B615}"
-                     "Is Visible" 1
-                    }
-                   }
-                  }
-                 }
-                }
-               }
-              }
-             }
-            }
-            ButtonWidgetClass "{54B29B3B97C4D61D}" {
-             Prefab "{54B29B3B97C4D61D}"
-             Slot GridWidgetSlot "{56C29176C42D37F0}" {
-              Padding -300 200 800 0
-              Row 2
-              Column 1
-             }
-             components {
-              SCR_MenuTileComponent "{5856B354A435996E}" {
-               m_sImageDefault ""
-               m_sImageSelected ""
-               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
-               m_sIconImage "modIcon"
-              }
-             }
-             {
-              OverlayWidgetClass "{54B29B3A951FD236}" {
-               Prefab "{54B29B3A951FD236}"
-               {
-                SizeLayoutWidgetClass "{5856B35E222A476C}" {
-                 Prefab "{5856B35E222A476C}"
-                 {
-                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
-                   Prefab "{56E0CE58C5887F4A}"
-                   {
-                    ImageWidgetClass "{54B29B3A87D1B615}" {
-                     Prefab "{54B29B3A87D1B615}"
-                     "Is Visible" 1
-                    }
-                   }
-                  }
-                 }
-                }
-               }
-              }
-             }
-            }
-            ButtonWidgetClass "{54B29B3B977583E0}" {
-             Prefab "{54B29B3B977583E0}"
-             Slot GridWidgetSlot "{56C29176C42D37F0}" {
-              Padding 500 200 0 0
-              Column 1
-             }
-             components {
-              SCR_MenuTileComponent "{5856B354A435996E}" {
-               m_sImageDefault ""
-               m_sImageSelected ""
-               m_sIconTexture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
-               m_sIconImage "scenarios"
-              }
-             }
-             {
-              OverlayWidgetClass "{54B29B3A951FD236}" {
-               Prefab "{54B29B3A951FD236}"
-               {
-                SizeLayoutWidgetClass "{5856B35E222A476C}" {
-                 Prefab "{5856B35E222A476C}"
-                 {
-                  OverlayWidgetClass "{56E0CE58C5887F4A}" {
-                   Prefab "{56E0CE58C5887F4A}"
-                   {
-                    ImageWidgetClass "{54B29B3A87D1B615}" {
-                     Prefab "{54B29B3A87D1B615}"
-                     "Is Visible" 1
-                    }
-                   }
-                  }
-                 }
-                }
-               }
-              }
-             }
-            }
-            ButtonWidgetClass "{54B29B3B975840CA}" {
-             Prefab "{54B29B3B975840CA}"
-             Slot GridWidgetSlot "{56C29176C42D37F0}" {
-              Padding 0 0 700 0
-              Row 1
-              Column 0
-             }
-             "Is Enabled" 0
-             "Is Visible" 0
-            }
-           }
-          }
-         }
-        }
-       }
-      }
-     }
-    }
+   Slot FrameWidgetSlot "{54D8A1A69BDC4E85}" {
    }
   }
  }
